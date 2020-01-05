@@ -1,0 +1,25 @@
+$peremennaya: 'Montserrat', sans-serif;    /* ПЕРЕМЕННАЯ */
+.container1{
+    .link1{
+        a{
+            font-family: $peremennaya
+        }
+    }
+}
+
+$radius: 0px;   /* МИКСИН */
+.container1{
+    .link1{
+        a{
+            -webkit-border-radius: $radius
+        }
+    }
+}
+
+.container1{    /*  ФУНКЦИЯ */
+    .link1{
+        a{
+            color: rgb(175, 198, 123)
+        }
+    }
+}   /* НЕ ПОНЯЛ, КАК СКОМПИЛИРОВАТЬ */

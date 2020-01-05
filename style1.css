@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=style1.css.map */
+@charset "UTF-8";
+/* ПЕРЕМЕННАЯ */
+.container1 .link1 a {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* МИКСИН */
+.container1 .link1 a {
+  -webkit-border-radius: 0px;
+}
+
+.container1 {
+  /*  ФУНКЦИЯ */
+}
+
+.container1 .link1 a {
+  color: #afc67b;
+}
+
+/* НЕ ПОНЯЛ, КАК СКОМПИЛИРОВАТЬ */
+/*# sourceMappingURL=style1.css.map */

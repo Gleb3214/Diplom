@@ -56,7 +56,6 @@ table {
 
 .container1{
     background-image: url(".//photo/container1.png");
-	/* object-fit: cover; */
 	background-size: cover;
 	height: 100vh;
     max-height: 1000px;

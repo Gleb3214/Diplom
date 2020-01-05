@@ -650,12 +650,6 @@ input::-webkit-inner-spin-button {
 	}
 }
 
-/* @media(max-width: 1197px){
-	.container1 .link1 a{
-		font-size: 35px;
-	}
-}
- */
 @media(max-width: 1000px){
 	header .menu{
 		flex-wrap: wrap;
@@ -665,6 +659,26 @@ input::-webkit-inner-spin-button {
 @media(max-width: 992px){
 	.container1 .link1{
 		margin-left: 50%;
+	}
+}
+
+@media(max-width: 795px){
+	.container1 .link1 a{
+		font-size: 40px;
+	}	
+
+	.container1 .link1{
+		margin-left: 30%;
+	}
+
+	.container1 h1{
+		padding-left: 30%;
+	} 
+}
+
+@media(max-width: 480px){
+	.container1 .link1{
+		margin: 0 auto;
 	}
 }
 

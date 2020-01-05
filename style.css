@@ -80,7 +80,7 @@ header .block_menu{
 	display: inline-block;
 	width: 55%;
 	margin-top: 60px;
-	margin-left: 530px;
+	margin-left: 30%;
 }
 
 header .menu li a{
@@ -91,7 +91,7 @@ header .menu li a{
 } 
 
 .container1 .logo{
-	margin-left: 860px;
+	margin-left: 65%;
 	margin-top: 50px;
 }
 
@@ -100,7 +100,7 @@ header .menu li a{
 	color: #afc67b;
 	font-size: 57px;
 	font-family: 'Montserrat', sans-serif;
-	padding-left: 860px;
+	padding-left: 65%;
 	padding-top: 40px;
 }
 
@@ -112,7 +112,7 @@ header .menu li a{
 }
 
 .container1 .link1{
-	margin-left: 870px;
+	margin-left: 67%;
 	margin-top: 60px;
 }
 
@@ -126,6 +126,7 @@ header .menu li a{
 	padding-bottom: 15px;
 	padding-left: 27px;
 	padding-right: 27px;
+	min-width: 350px;
 }
 
 .background{
@@ -279,13 +280,12 @@ header .menu li a{
 	font-family: 'MyriadPro-Regular';
 	color: #dcdcdb;
 	width: 40%;
+	margin: 0 auto;
 }
 
 .container5 .content5{
 	text-align: center;
-	position: relative;
-	left: 400px;
-	top: 30px;
+	padding-top: 30px;
 	font-family: 'MyriadPro-Regular';
 }
 
@@ -635,6 +635,38 @@ input::-webkit-inner-spin-button {
 	margin-left: 70px;
 }
 
+@media(max-width: 1265px){
+	.container1 .link1{
+		margin-left: 60%;
+	}
+
+	.container1 h1{
+		padding-left: 60%;
+		font-size: 50px;
+	}
+
+	.container1 h1 span{
+		font-size: 50px;
+	}
+}
+
+/* @media(max-width: 1197px){
+	.container1 .link1 a{
+		font-size: 35px;
+	}
+}
+ */
+@media(max-width: 1000px){
+	header .menu{
+		flex-wrap: wrap;
+	}
+}
+
+@media(max-width: 992px){
+	.container1 .link1{
+		margin-left: 50%;
+	}
+}
 
 
 
